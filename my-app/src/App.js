@@ -1,12 +1,11 @@
 // eslint-disable-next-line
 import './App.css';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div>
-      <header>
-        header
-      </header>
+     <Header/>
       <div>
         Main Content
       </div>
