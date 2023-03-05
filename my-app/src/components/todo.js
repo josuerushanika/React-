@@ -1,16 +1,14 @@
-import React from "react";
+// eslint-disable-next-line
+import React, {useState} from "react";
 
 const Todo = () => {
+    const [todo,setTodo] = useState('To do');
     return (
-        <React.Fragment>
-            <div>
-                  To Do Column 1
-            </div>
-            <div>
-            To Do Column 2
-            </div>
-        </React.Fragment>
-    )
+        <>
+           To do here
+        </>
+    
+   )
 }
 
 export default Todo;
