@@ -2,10 +2,10 @@
 import React, {useState} from "react";
 
 const Todo = () => {
-    const [todo,setTodo] = useState('To do');
+    const [name,setName] = useState('Rushanika');
     return (
         <>
-           To do here{todo}
+           Name:{name}
         </>
     
    )
