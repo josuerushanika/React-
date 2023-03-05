@@ -1,17 +1,22 @@
-import React from "react";
+// // eslint-disable-next-line
+// import React from "react";
 
-const Header = () => {
- let headerClass = 'headerClass';
- let logoTitle = 'My first React App';
-    return (
-        <header className ={headerClass}>
-            <div>
-                <a href="#">{logoTitle}</a>
-            </div>
-            Header here
-        </header>
-    )
+// const Header = () => {
+//  let headerClass = 'headerClass';
+//  const logoTitle = 'My first React App';
 
-}
+//     return (
+//         <header className ={headerClass}>
+//             <div className="logo col-4">
+//                 <div>{logoTitle}</div>
+//             </div>
+//             <div className="col-8 search">
+//                 Header here
+//             </div>
 
-export default Header
+//         </header>
+//     )
+
+// }
+
+// export default Header
