@@ -5,7 +5,7 @@ const Todo = () => {
     const [todo,setTodo] = useState('To do');
     return (
         <>
-           To do here
+           To do here{todo}
         </>
     
    )
